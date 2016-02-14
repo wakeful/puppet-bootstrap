@@ -2,6 +2,6 @@
 
 ## Usage
 <pre>
-sudo curl https://raw.githubusercontent.com/wakeful/puppet-bootstrap/master/rhel7.sh | sh
+sudo curl https://raw.githubusercontent.com/wakeful/puppet-bootstrap/master/rhel.sh | sh
 </pre>
 
