@@ -2,6 +2,11 @@
 
 set -e
 
+if [ ! -f "/etc/redhat-release" ]; then
+  echo "This script supports only rhel based systems."
+  exit 1
+fi
+
 if which puppet > /dev/null 2>&1; then
   echo "Puppet is already installed."
   exit 0
